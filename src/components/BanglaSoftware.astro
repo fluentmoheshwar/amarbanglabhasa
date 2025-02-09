@@ -1,0 +1,159 @@
+---
+import { Image } from "astro:assets";
+import SwiftKey from "../assets/icons/swiftkey.webp";
+import Gboard from "../assets/icons/gboard.webp";
+import Borno from "../assets/icons/borno.webp"
+import Ridmik from "../assets/icons/ridmik.webp"
+import Avro from "../assets/icons/avro.webp"
+import AvroConverter from "../assets/icons/avro_converter.png"
+import OpenBangla from "../assets/icons/openbangla.png"
+import Windows11 from "../assets/icons/windows11.png";
+---
+
+<h2 class="my-6 mb-4 text-center text-3xl font-bold underline">
+  বাংলা সফটওয়ার
+</h2>
+
+<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Windows11} alt="Windows11" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">Windows 11</h2>
+      <div class="card-actions justify-end">
+        <a class="link link-primary mx-auto" href="">বাংলা সেটাপ করুন</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={SwiftKey} alt="SwiftKey" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        মাইক্রোসফট সুইফ্টকী (Microsoft SwiftKey)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://play.google.com/store/apps/details?id=com.touchtype.swiftkey">অ্যান্ড্রয়েড</a>
+        <a class="btn btn-primary mx-auto" href="https://apps.apple.com/us/app/microsoft-swiftkey-ai-keyboard/id911813648">আইফোন</a>
+      </div>
+      <a class="link link-primary mx-auto">বাংলা সেটাপ (অ্যান্ড্রয়েড)</a>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Gboard} alt="Gboard"/>
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">জিবোর্ড (Gboard)</h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin">অ্যান্ড্রয়েড</a>
+        <a class="btn btn-primary mx-auto" href="https://apps.apple.com/us/app/gboard-the-google-keyboard/id1091700242">আইফোন</a>
+      </div>
+      <a class="link link-primary mx-auto">বাংলা সেটাপ (অ্যান্ড্রয়েড)</a>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Borno} alt="Borno"/>
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        বর্ণ কিবোর্ড (Borno Keyboard)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://play.google.com/store/apps/details?id=com.codepotro.borno.keyboard">অ্যান্ড্রয়েড</a>
+        <a class="btn btn-primary mx-auto" href="https://codepotro.com/borno/">উইন্ডোজ</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Ridmik} alt="ridmik"/>
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        রিদ্মিক কিবোর্ড (Ridmik Keyboard)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://play.google.com/store/apps/details?id=ridmik.keyboard">অ্যান্ড্রয়েড</a>
+        <a class="btn btn-primary mx-auto" href="https://apps.apple.com/us/app/ridmik-keyboard/id1475531051">আইফোন</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Avro} alt="avro" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        অভ্র কিবোর্ড (Avro Keyboard)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://www.omicronlab.com/avro-keyboard.html">উইন্ডোজ</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Avro} alt="avro" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        অভ্র কিবোর্ড (iAvro)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://omicronlab.com/iavro.html">ম্যাক</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={Avro} alt="avro" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        অভ্র কিবোর্ড (ibus-avro)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://github.com/sarim/ibus-avro">লিনাক্স</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={OpenBangla} alt="OpenBangla Keyboard" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        ওপেনবাংলা কিবোর্ড (OpenBangla Keyboard)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="https://github.com/OpenBangla/OpenBangla-Keyboard">লিনাক্স</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-xl">
+    <figure>
+      <Image src={AvroConverter} alt="AvroConverter" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-center">
+        অভ্র কনভার্টার (Avro Converter)
+      </h2>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary mx-auto" href="/setup_converter_0.6.0_beta3.exe" download>লিনাক্স</a>
+      </div>
+    </div>
+  </div>
+</div>
