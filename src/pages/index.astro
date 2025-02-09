@@ -1,11 +1,17 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import Facts from "../components/Facts.astro"
 ---
 
 <Layout>
-	<Welcome />
+  <div class="container mx-auto p-4">
+    <h1 class="mb-4 text-3xl font-bold">আমার বাংলা ভাষা</h1>
+    <p>
+      বাংলা ভাষা (বাঙলা, বাঙ্গলা, তথা বাঙ্গালা নামেও পরিচিত) একটি ধ্রুপদী
+      ইন্দো-আর্য ভাষা, যা দক্ষিণ এশিয়ার বাঙালি জাতির প্রধান কথ্য ও লেখ্য ভাষা।
+      মাতৃভাষীর সংখ্যায় বাংলা ইন্দো-ইউরোপীয় ভাষা পরিবারের পঞ্চম ও মোট
+      ব্যবহারকারীর সংখ্যা অনুসারে বাংলা বিশ্বের ৭ম বৃহত্তম ভাষা। 
+    </p>
+		<Facts />
+  </div>
 </Layout>

@@ -1,5 +1,5 @@
 {
-  "name": "absolute-belt",
+  "name": "amarbanglabhasa",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.2.5"
+    "@astrojs/react": "^4.2.0",
+    "@fontsource-variable/noto-sans-bengali": "^5.1.1",
+    "@tailwindcss/vite": "^4.0.5",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "astro": "^5.2.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "tailwindcss": "^4.0.5"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.0-beta.7",
+    "prettier": "^3.3.1",
+    "prettier-plugin-astro": "^0.14.0",
+    "prettier-plugin-sort-imports": "^1.8.5",
+    "prettier-plugin-tailwindcss": "^0.6.2"
   }
 }
