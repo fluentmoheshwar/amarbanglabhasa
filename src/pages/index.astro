@@ -1,9 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Facts from "../components/Facts.astro"
-import BanglaSoftware from "../components/BanglaSoftware.astro";
+import { Image } from "astro:assets";
+import GreenWeb from "../assets/greenweb.png";
 import BanglaFonts from "../components/BanglaFonts.astro";
-import Others from "../components/Others.astro"
+import BanglaSoftware from "../components/BanglaSoftware.astro";
+import CarbonBadge from "../components/CarbonBadge.astro";
+import Facts from "../components/Facts.astro";
+import Others from "../components/Others.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
@@ -15,9 +18,30 @@ import Others from "../components/Others.astro"
       মাতৃভাষীর সংখ্যায় বাংলা ইন্দো-ইউরোপীয় ভাষা পরিবারের পঞ্চম ও মোট
       ব্যবহারকারীর সংখ্যা অনুসারে বাংলা বিশ্বের ৭ম বৃহত্তম ভাষা।
     </p>
-		<Facts />
+    <Facts />
     <BanglaSoftware />
     <BanglaFonts />
     <Others />
+    <footer class="footer footer-center text-base-content mt-4">
+      <div>
+        Crafted with 💖 by <a
+          href="https://fluentmoheshwar.pages.dev"
+          target="_blank"
+          class="link-primary">Moheshwar Amarnath Biswas</a
+        >
+      </div>
+      <div class="sm:grid-flow-col sm:place-self-center sm:justify-self-end">
+        <a
+          href=`https://www.thegreenwebfoundation.org/green-web-check/?url=${Astro.url.toString()}`
+          target="_blank"
+        >
+          <Image
+            src={GreenWeb}
+            alt="This website runs on green hosting - verified by thegreenwebfoundation.org"
+          />
+        </a>
+        <CarbonBadge />
+      </div>
+    </footer>
   </div>
 </Layout>
