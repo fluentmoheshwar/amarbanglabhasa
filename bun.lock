@@ -5,8 +5,8 @@
       "name": "absolute-belt",
       "dependencies": {
         "@astrojs/react": "^4.2.0",
-        "@fontsource-variable/noto-emoji": "^5.1.1",
         "@fontsource-variable/noto-sans-bengali": "^5.1.1",
+        "@microsoft/clarity": "^1.0.0",
         "@tailwindcss/vite": "^4.0.5",
         "@types/react": "^19.0.8",
         "@types/react-dom": "^19.0.3",
@@ -128,8 +128,6 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.24.2", "", { "os": "win32", "cpu": "x64" }, "sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg=="],
 
-    "@fontsource-variable/noto-emoji": ["@fontsource-variable/noto-emoji@5.1.1", "", {}, "sha512-+eDYcqNoitR/BFsxRzqIf3Qc3KVgc4HwqAjdhKay98TH6zXH807hcMP6zHsHxHMjOIO1uX6wMMZtuDjlVJwNCw=="],
-
     "@fontsource-variable/noto-sans-bengali": ["@fontsource-variable/noto-sans-bengali@5.1.1", "", {}, "sha512-DRTS10aBSVrwaJ2XiCdkpuSdfY4T8sTnJiP3vQMlGF1Pzz1levfrU+6y2UTz/nwdWd+IYvBeWkYCgXKqdY73Ow=="],
 
     "@img/sharp-darwin-arm64": ["@img/sharp-darwin-arm64@0.33.5", "", { "optionalDependencies": { "@img/sharp-libvips-darwin-arm64": "1.0.4" }, "os": "darwin", "cpu": "arm64" }, "sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ=="],
@@ -179,6 +177,8 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.0", "", {}, "sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.25", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ=="],
+
+    "@microsoft/clarity": ["@microsoft/clarity@1.0.0", "", {}, "sha512-2QY6SmXnqRj6dWhNY8NYCN3e53j4zCFebH4wGnNhdGV1mqAsQwql2fT0w8TISxCvwwfVp8idsWLIdrRHOms1PQ=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
