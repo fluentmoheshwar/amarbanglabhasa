@@ -18,6 +18,11 @@ import Layout from "../layouts/Layout.astro";
       মাতৃভাষীর সংখ্যায় বাংলা ইন্দো-ইউরোপীয় ভাষা পরিবারের পঞ্চম ও মোট
       ব্যবহারকারীর সংখ্যা অনুসারে বাংলা বিশ্বের ৭ম বৃহত্তম ভাষা।
     </p>
+    <div class="bg-red-950 p-5 hidden" id="motherLanguageDay">
+      <p class="text-center text-5xl font-bold text-white">
+        আন্তজার্তিক মাতৃভাষা দিবসের শুভেচ্ছা
+      </p>
+    </div>
     <Facts />
     <BanglaSoftware />
     <BanglaFonts />
@@ -44,4 +49,12 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </footer>
   </div>
+
+  <script is:inline>
+    const today = new Date();
+    const motherLanguageDay = new Date(today.getFullYear(), 1, 21);
+    if (today.getMonth() === motherLanguageDay.getMonth() && today.getDate() === motherLanguageDay.getDate()) {
+      document.getElementById("motherLanguageDay").classList.remove("hidden");
+    }
+  </script>
 </Layout>
