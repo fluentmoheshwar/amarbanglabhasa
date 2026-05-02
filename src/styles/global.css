@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@theme {
-  --font-sans: "Noto Sans Bengali", "sans-serif";
+@theme inline {
+    --font-sans: var(--font-noto-sans-bengali);
 }
