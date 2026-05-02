@@ -15,11 +15,7 @@
     "@tailwindcss/vite": "^4.0.5",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
-<<<<<<< HEAD
-    "astro": "6.0.3",
-=======
     "astro": "^6.1.8",
->>>>>>> 3a7ddbfa622d6748557f2e9915e203c7ff943307
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
