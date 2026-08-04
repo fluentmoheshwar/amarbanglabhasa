@@ -13,10 +13,10 @@
     "@fontsource-variable/noto-sans-bengali": "^5.1.1",
     "@microsoft/clarity": "^1.0.0",
     "@tailwindcss/vite": "^4.3.3",
-    "@types/react": "^19.0.8",
+    "@types/react": "^19.2.18",
     "@types/react-dom": "^19.0.3",
     "astro": "^7.1.6",
-    "react": "^19.0.0",
+    "react": "^19.2.8",
     "react-dom": "^19.0.0",
     "react-icons": "^5.7.0",
     "tailwindcss": "^4.0.5"
