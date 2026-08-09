@@ -9,7 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "5.0.0",
+    "@astrojs/react": "6.0.2",
     "@fontsource-variable/noto-sans-bengali": "^5.1.1",
     "@microsoft/clarity": "^1.0.0",
     "@tailwindcss/vite": "^4.3.3",
