@@ -22,7 +22,7 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "daisyui": "^5.7.19",
+    "daisyui": "^5.7.22",
     "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-sort-imports": "^1.8.11",
